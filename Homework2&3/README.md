@@ -15,16 +15,14 @@
 - [x] 額外功能：開平方根與開y次方
 - [x] Docker
     - [x] Dockerfile
-				```
-			FROM node:lts-alpine as build-stage
-			WORKDIR /app
-			COPY package.json .
-			RUN npm install -force
-			COPY . .
-			EXPOSE 5001
-			RUN npm run build
-			ENTRYPOINT npm run serve
-			```
+&emsp;&emsp;FROM node:lts-alpine as build-stage
+&emsp;&emsp;WORKDIR /app
+&emsp;&emsp;COPY package.json .
+&emsp;&emsp;RUN npm install -force
+&emsp;&emsp;COPY . .
+&emsp;&emsp;EXPOSE 5001
+&emsp;&emsp;RUN npm run build
+&emsp;&emsp;ENTRYPOINT npm run serve
     - [x] 打包成**容器映像檔**
 	`docker image build -t calculator-app:2.0 .
 `
