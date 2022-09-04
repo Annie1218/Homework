@@ -1,6 +1,6 @@
 ----
 
-<img src="https://media.istockphoto.com/vectors/cartoon-of-electronic-calculator-with-empty-display-vector-id939144498" width="50%" height="50%" alt="calculator"/>
+<img src="https://user-images.githubusercontent.com/105697987/188320734-20f67bdd-ae83-43f0-b704-8d5a443f0c7f.png" width="30%" height="30%" alt="calculator"/>   <img src="https://user-images.githubusercontent.com/105697987/188320827-3bf60f29-08ea-4c7b-aafe-b22924670693.png" width="30%" height="30%" alt="calculator"/>   <img src="https://user-images.githubusercontent.com/105697987/188320859-eeb40ac0-40b0-4714-bd0c-a9d5bdcd6cbc.png" width="30%" height="30%" alt="calculator"/>
 
 > ###React Calculator App (Homework2、3)
 
