@@ -85,23 +85,24 @@ $ git submodule update --remote
 克隆包含子模塊的項目有二種方法：一種是*先克隆父項目，再更新子模塊*；另一種是*直接遞歸克隆整個項目*。
 
 ### 1.克隆父項目，再更新子模塊
-克隆父項目
+#### 克隆父項目
 ```
 $ git clone https://github.com/maonx/vimwiki-assets.git assets
 ```
-查看子模塊
-`$ git submodule -e33f854d3f51f5ebd771a68da05ad0371a3c0570 assets
- `
+#### 查看子模塊
+```
+$ git submodule -e33f854d3f51f5ebd771a68da05ad0371a3c0570 assets
+```
 子模塊前面有一個-，說明子模塊文件還未檢入（空文件夾）。
 
-初始化子模塊
+#### 初始化子模塊
 ```
 $ git submodule init
 Submodule 'assets' (https://github.com/maonx/vimwiki-assets.git) registered for path 'assets'
 ```
 初始化模塊只需在克隆父項目後運行一次。
 
-更新子模塊
+#### 更新子模塊
 ```
 $ git submodule update
 Cloning into 'assets'...
